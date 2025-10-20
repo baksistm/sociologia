@@ -28,6 +28,10 @@ body {
   box-shadow: 0 4px 20px rgba(0,0,0,0.5);
 }
 
+.logo_index {
+  border-radius: 50%;
+}
+
 h1 {
   font-size: 1.8rem;
   margin-bottom: 5px;
@@ -90,4 +94,5 @@ footer {
   background: #ff4500;
   transform: scale(1.10);
   box-shadow: 0 10px 13px rgba(0,0,0,0.5);
+
 }
