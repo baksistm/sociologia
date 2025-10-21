@@ -91,6 +91,28 @@
     .formulario:hover {
       background: #ff4500;
     }
+
+    .formulario {
+      position: fixed; /* Altera de footer para fixed */
+      bottom: 35px; /* Fixa a 35px do fundo da tela */
+      left: 50%; /* Posiciona a 50% da largura da tela */
+      transform: translateX(-50%); /* Move o elemento para a esquerda em 50% do seu próprio tamanho, centralizando-o */
+      background: #ff6a00;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 15px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+
+
+
+    .formulario:hover {
+      background: #ff4500;
+    }
     
   </style>
 </head>
@@ -122,7 +144,6 @@
   </div>
   <button onclick="window.open('https://forms.gle/Tr4ksZXMx3HZsZaY9', '_blank')" alt="formulario" class="formulario">Acessar formulário</button>
 
-
   <footer>Área administrativa | E.E.B. Profº João Boos</footer>
 
   <button class="logout-btn" onclick="logout()">Sair</button>
@@ -137,3 +158,4 @@
 
 
 </html>
+
