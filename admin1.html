@@ -71,9 +71,10 @@
     }
 
     .formulario {
-      position: fixed;
-      bottom: 35px;
-      right: 55%;
+      position: fixed; /* Altera de footer para fixed */
+      bottom: 35px; /* Fixa a 35px do fundo da tela */
+      left: 50%; /* Posiciona a 50% da largura da tela */
+      transform: translateX(-50%); /* Move o elemento para a esquerda em 50% do seu próprio tamanho, centralizando-o */
       background: #ff6a00;
       color: white;
       border: none;
@@ -83,6 +84,7 @@
       cursor: pointer;
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     }
+
 
     .formulario:hover {
       background: #ff4500;
@@ -134,4 +136,5 @@
 
 
 </html>
+
 
