@@ -69,6 +69,28 @@
       background: #ff4500;
       transform: scale(1.05);
     }
+
+
+    .formulario {
+      position: fixed; /* Altera de footer para fixed */
+      bottom: 35px; /* Fixa a 35px do fundo da tela */
+      left: 50%; /* Posiciona a 50% da largura da tela */
+      transform: translateX(-50%); /* Move o elemento para a esquerda em 50% do seu próprio tamanho, centralizando-o */
+      background: #ff6a00;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 15px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .formulario:hover {
+      background: #ff4500;
+    }
+
+
   </style>
 </head>
 
@@ -94,11 +116,13 @@
 
   <div class="container">
     <h1>Área Administrativa - Grupo 3</h1>
-    <iframe
-      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTkA4TnvfRXUDdUuQ-qBKdQBF02dx_H513nparatFRAe5msU2_kK83wWTAp2vDM8YdJr09Rd80BzJZH/pubhtml?widget=true&amp"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT0EfZqv3vgHT897ckdDsBd-lIWlz2VNiA_nVZj4TggsxaPj_NyvNUgQg4UMTzoY7yCOTu-F1Sh0B1f/pubhtml?gid=593154080&amp;single=true&amp;widget=true&amp;headers=false">
+    </iframe>
   </div>
 
   <footer>Área administrativa | E.E.B. Profº João Boos</footer>
+  <button onclick="window.open('https://forms.gle/WgZJCSzdC5HK7DvX8', '_blank')" alt="formulario" class="formulario">Acessar formulário</button>
+
 
   <button class="logout-btn" onclick="logout()">Sair</button>
 
@@ -109,5 +133,6 @@
     }
   </script>
 </body>
+
 
 </html>
